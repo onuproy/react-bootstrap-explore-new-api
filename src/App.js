@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Card, Col, Row, Spinner } from 'react-bootstrap';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import News from './components/News/News';
 
 function App() {
@@ -25,11 +25,6 @@ function App() {
           }
         </Row>
       }
-
-      {/* <Button variant="primary"> Green</Button>
-      <Spinner animation="border" role="status">
-        <span className="visually-hidden">Loading...</span>
-      </Spinner> */}
     </div>
   );
 }
